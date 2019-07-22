@@ -26,5 +26,11 @@ $gdb ./vmlinux
 (gdb)hbreak start_kernel
 (gdb)c
 
+# for i386 architecture
+
+complie linux with i386_defconfig
+use qemu/i386-softmmu/
+use a i386 linux to get ramdisk.img (busybox) with mkinitramfs
+
 
 
